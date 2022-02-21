@@ -5,6 +5,16 @@
   flex-wrap: wrap;
   margin-bottom: 50px;
 }
+@media only screen and (max-width: 1280px) {
+  .explore_section {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media only screen and (max-width: 976px) {
+  .explore_section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 @media only screen and (max-width: 767px) {
   .explore_section {
     grid-template-columns: repeat(1, 1fr);
