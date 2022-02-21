@@ -8,9 +8,10 @@ $light_grey: #f6f6f6;
   justify-content: $justifyContent;
   gap: $gap;
 }
-@mixin grid_box($col: 0, $gap: 0px) {
+@mixin grid_box($col: 0, $gapCol: 0, $gapRow: 0) {
   display: grid;
-  grid-gap: $gap;
+  grid-column-gap: $gapCol;
+  grid-row-gap: $gapRow;
   grid-template-columns: repeat($col, 1fr);
 }
 @mixin box_shadow {
