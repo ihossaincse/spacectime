@@ -4,6 +4,7 @@
   @include border_radius();
   @include border();
   @include box_shadow();
+  word-break: break-word;
   .text {
     padding: 20px 10px;
     h4 {
