@@ -14,7 +14,7 @@ const MapBox = ({ lat=40.6976701, long=-74.2598737, h="400px" }) => {
     return (
         <div>
             <ReactMapGL {...viewport}
-                mapStyle="mapbox://styles/ihossainworkbd/ckzwt40s6000414pb15v5h7yq"
+                mapStyle="mapbox://styles/fowl/ckzwz31l0001j15t22ujhbw8k"
                 mapboxApiAccessToken={process.env.mapbox_key}
                 onViewportChange={(viewport) => setViewport(viewport)}
             ></ReactMapGL>
