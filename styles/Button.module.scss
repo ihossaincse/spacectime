@@ -4,7 +4,7 @@
   a {
     @include box_shadow();
     @include border();
-    @include border_radius();
+    @include border_radius(6px);
     background-color: $white;
     text-align: center;
     text-decoration: none;

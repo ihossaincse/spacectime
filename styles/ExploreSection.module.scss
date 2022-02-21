@@ -1,0 +1,7 @@
+@import "./variables.scss";
+
+.explore_section {
+  @include flex_box(center, space-between);
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}

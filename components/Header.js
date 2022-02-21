@@ -5,7 +5,7 @@ import Button from './Button'
 
 const Header = () => {
     return (
-        <div className={styles.header}>
+        <header className={styles.header}>
             <div className="container">
                 <div className={styles.left}>spacectime</div>
                 <div className={styles.middle}>
@@ -17,7 +17,7 @@ const Header = () => {
                     <Button text="login" url="/" />
                 </div>
             </div>
-        </div>
+        </header>
     )
 }
 
