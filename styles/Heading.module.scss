@@ -1,5 +1,7 @@
+@import "./variables.scss";
+
 .heading {
-  font-size: 35px;
+  font-size: $f-size-h2;
   font-weight: 900;
   text-align: center;
 }

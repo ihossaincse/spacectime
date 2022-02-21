@@ -9,8 +9,8 @@ const IconText = ({ iconImage, title, subText }) => {
                 <Image src={iconImage} alt="icon" width="35" height="35" />    
             </div>  
             <div className="">
-                <div className={styles.title}>{title}</div>
-                <div className={styles.sub_title}>{subText}</div>
+                <h4 className={styles.title}>{title}</h4>
+                <p className={styles.sub_title}>{subText}</p>
             </div>  
         </div>
     )

@@ -6,17 +6,24 @@
     position: relative;
   }
   .title {
-    font-size: 18px;
+    font-size: $f-size-p4;
     font-weight: 800;
-    margin-bottom: 3px;
+    margin: 0 0 3px;
   }
   .sub_title {
     font-weight: 600;
-    font-size: 12px;
+    font-size: $f-size-p7;
+    margin: 0px;
   }
 }
 @media only screen and (max-width: 767px) {
   .icon_text {
     margin-bottom: 15px;
+    .title {
+      font-size: 18px;
+    }
+    .sub_title {
+      font-size: 12px;
+    }
   }
 }
