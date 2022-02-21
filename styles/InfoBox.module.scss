@@ -1,0 +1,16 @@
+@import "./variables.scss";
+
+.info_box {
+  @include border();
+  @include border_radius(15px);
+  @include flex_box(center, space-between);
+  @include box_shadow();
+  padding: 20px 60px;
+}
+@media only screen and (max-width: 767px) {
+  .info_box {
+    display: block;
+    max-width: 250px;
+    margin: auto;
+  }
+}

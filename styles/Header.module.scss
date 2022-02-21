@@ -1,0 +1,37 @@
+@import "./variables.scss";
+
+.header {
+  background-color: $light_grey;
+  padding: 20px 0;
+  border-bottom: 1px solid #d2d2d9;
+  .left {
+    font-weight: 900;
+    font-size: 22px;
+    letter-spacing: -1.5px;
+    width: 25%;
+  }
+  .middle {
+    position: relative;
+    width: 50%;
+    .logo {
+      position: absolute;
+      width: 100%;
+      top: 0px;
+      text-align: center;
+    }
+  }
+  .right {
+    width: 25%;
+    text-align: right;
+  }
+  > div {
+    @include flex_box(center, space-between);
+  }
+}
+@media only screen and (max-width: 767px) {
+  .header {
+    .left {
+      font-size: 16px;
+    }
+  }
+}

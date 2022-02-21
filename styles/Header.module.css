@@ -1,0 +1,48 @@
+.header {
+  background-color: #f6f6f6;
+  padding: 20px 0;
+  border-bottom: 1px solid #d2d2d9;
+}
+
+.header .left {
+  font-weight: 900;
+  font-size: 22px;
+  letter-spacing: -1.5px;
+  width: 25%;
+}
+
+.header .middle {
+  position: relative;
+  width: 50%;
+}
+
+.header .middle .logo {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  text-align: center;
+}
+
+.header .right {
+  width: 25%;
+  text-align: right;
+}
+
+.header > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media only screen and (max-width: 767px) {
+  .header .left {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=Header.module.css.map */

@@ -1,0 +1,29 @@
+@import "./variables.scss";
+
+.button {
+  a {
+    @include box_shadow();
+    @include border();
+    @include border_radius();
+    background-color: $white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 6px 35px;
+    font-weight: bold;
+    color: $black;
+    transition: all 0.5s ease;
+    &:hover {
+      background-color: $black;
+      color: $white;
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  .button {
+    a {
+      font-size: 12px;
+      padding: 6px 20px;
+    }
+  }
+}

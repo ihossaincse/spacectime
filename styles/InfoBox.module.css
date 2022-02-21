@@ -1,0 +1,25 @@
+.info_box {
+  border: 1px solid #d2d2d9;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-shadow: 0px 51px 53px rgba(91, 105, 132, 0.13), 0px 16.1454px 11.8382px rgba(91, 105, 132, 0.0774939), 0px 6.90592px 3.52455px rgba(91, 105, 132, 0.0525061);
+          box-shadow: 0px 51px 53px rgba(91, 105, 132, 0.13), 0px 16.1454px 11.8382px rgba(91, 105, 132, 0.0774939), 0px 6.90592px 3.52455px rgba(91, 105, 132, 0.0525061);
+  padding: 20px 60px;
+}
+
+@media only screen and (max-width: 767px) {
+  .info_box {
+    display: block;
+    max-width: 250px;
+    margin: auto;
+  }
+}
+/*# sourceMappingURL=InfoBox.module.css.map */
