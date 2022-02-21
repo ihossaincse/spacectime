@@ -3,7 +3,6 @@
 .explore_section {
   @include grid_box(4, 35px);
   flex-wrap: wrap;
-  margin-bottom: 50px;
 }
 @media only screen and (max-width: 1280px) {
   .explore_section {
