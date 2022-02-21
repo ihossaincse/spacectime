@@ -3,8 +3,10 @@ $white: #fff;
 $light_grey: #f6f6f6;
 $f-size-p2: calc(24px + (32 - 24) * ((100vw - 300px) / (1900 - 700)));
 $f-size-p4: calc(14px + (19 - 14) * ((100vw - 300px) / (1900 - 700)));
-$f-size-p7: calc(12px + (14 - 12) * ((100vw - 300px) / (1900 - 700)));
+$f-size-p6: calc(13px + (16 - 13) * ((100vw - 300px) / (1900 - 700)));
 $f-size-h2: calc(25px + (45 - 25) * ((100vw - 300px) / (1900 - 700)));
+$f-size-h8: calc(15px + (26 - 15) * ((100vw - 300px) / (1900 - 700)));
+$f-size-h9: calc(8px + (26 - 15) * ((100vw - 300px) / (1900 - 700)));
 
 @mixin flex_box($alignItems: initial, $justifyContent: initial, $gap: 0px) {
   display: flex;

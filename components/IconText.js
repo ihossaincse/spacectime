@@ -6,7 +6,7 @@ const IconText = ({ iconImage, title, subText }) => {
     return (
         <div className={styles.icon_text}>
             <div className={styles.icon}>
-                <Image src={iconImage} alt="icon" width="35" height="35" />    
+                <Image src={iconImage} alt="icon" width="45" height="45" />    
             </div>  
             <div className="">
                 <h4 className={styles.title}>{title}</h4>
