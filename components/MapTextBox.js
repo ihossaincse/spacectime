@@ -3,10 +3,10 @@ import React from 'react';
 import styles from "../styles/MapTextBox.module.scss";
 import MapBox from './MapBox';
 
-const MapTextBox = ({url, address, imageIcon, name}) => {
+const MapTextBox = ({lat, long, url, address, imageIcon, name}) => {
     return (
         <div className={styles.map_text_box}>
-            <MapBox h="150px" />
+            <MapBox lat={lat} long={long} h="150px" />
             <div className={styles.text}>
                 <div className={styles.top}>
                     <h4 className="">{url}</h4>

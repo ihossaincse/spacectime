@@ -9,8 +9,8 @@ const ExploreSection = () => {
         <div className="container">
             <Heading text="explore" />
             <div className={styles.explore_section}>
-                {mapData?.map(({url, address, imageIcon, name}) => (
-                    <MapTextBox url={url} address={address} imageIcon={imageIcon} name={name} key={Math.random()} />
+                {mapData?.map(({lat, long, url, address, imageIcon, name}) => (
+                    <MapTextBox lat={lat} long={long} url={url} address={address} imageIcon={imageIcon} name={name} key={Math.random()} />
                 ))}
             </div>
         </div>
