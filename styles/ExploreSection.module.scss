@@ -1,7 +1,12 @@
 @import "./variables.scss";
 
 .explore_section {
-  @include flex_box(center, space-between);
+  @include grid_box(4, 35px);
   flex-wrap: wrap;
   margin-bottom: 50px;
+}
+@media only screen and (max-width: 767px) {
+  .explore_section {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
