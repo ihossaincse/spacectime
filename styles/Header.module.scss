@@ -2,7 +2,7 @@
 
 .header {
   background-color: $light_grey;
-  padding: 20px 0;
+  padding: 30px 0;
   border-bottom: 1px solid #d2d2d9;
   .left {
     font-weight: 900;
@@ -16,7 +16,7 @@
     .logo {
       position: absolute;
       width: 100%;
-      top: 0px;
+      top: -20px;
       text-align: center;
     }
   }
