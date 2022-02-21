@@ -3,7 +3,7 @@
 .info_box {
   @include border();
   @include border_radius();
-  @include grid_box(4, 20px);
+  @include grid_box(4, 20px, 20px);
   @include box_shadow();
   padding: 20px 60px;
   margin-bottom: 50px;
