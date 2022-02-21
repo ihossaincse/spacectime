@@ -3,16 +3,19 @@
 .info_box {
   @include border();
   @include border_radius();
-  @include flex_box(center, space-between);
+  @include grid_box(4, 20px);
   @include box_shadow();
   padding: 20px 60px;
   margin-bottom: 50px;
 }
 @media only screen and (max-width: 767px) {
   .info_box {
-    display: block;
-    max-width: 250px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 20px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 480px) {
+  .info_box {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
